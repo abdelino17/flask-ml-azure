@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/abdelino17/flask-ml-azure/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/abdelino17/flask-ml-azure/actions/workflows/pythonapp.yml)
+
 [![Build Status](https://dev.azure.com/bienvenuefare/flaskml-abdel/_apis/build/status/abdelino17.flask-ml-azure?branchName=main)](https://dev.azure.com/bienvenuefare/flaskml-abdel/_build/latest?definitionId=1&branchName=main)
 
 # Overview
@@ -16,7 +18,7 @@ This goal of this second project is to build a CI/CD pipeline using Azure Pipeli
 
 ## Instructions
 
-- Architectural Diagram (Shows how key parts of the system work)>
+- Architectural Diagram (Shows how key parts of the system work)
 
 ![System architecture](./screenshots/architecture.png)
 
@@ -79,4 +81,4 @@ This goal of this second project is to build a CI/CD pipeline using Azure Pipeli
 
 ## Demo
 
-- [Azure DevOps Building a CI/CD Pipeline]()
+- [Azure DevOps Building a CI/CD Pipeline](https://www.loom.com/share/d9baab500f7f46049134d4a7ddf1ac6f)
