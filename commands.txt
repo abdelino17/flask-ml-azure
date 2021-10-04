@@ -1,9 +1,0 @@
-ssh-keygen -t rsa
-   
-git clone git@github.com:abdelino17/flask-ml-azure.git
- 
-az webapp up --sku F1 --name flaskml-abdel --location "France Central"
-
-./make_predict_azure_app.sh
-
-az webapp log tail -n flaskml-abdel --resource-group udacity
