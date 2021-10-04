@@ -56,6 +56,22 @@ This goal of this second project is to build a CI/CD pipeline using Azure Pipeli
 
   ![Azure Webapp frontend](screenshots/3_Tests3.jpg)
 
+* Load testing with Locust
+
+  - Create a virtual environment: `python3 -m .locust `
+
+  - Activate the virtual environment: `source .locust/bin/activate`
+
+  - Run `pip install locust`
+
+  - Run `locust`
+
+  - Open your browser and go to [http://localhost:8089/](http://localhost:8089/)
+
+    ![Locust setup](./screenshots/12-locust1.jpg)
+
+    ![Locust requests](./screenshots/13-locust2.jpg)
+
 - Successful deploy of the project in Azure Pipelines. [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
 
 - Running Azure App Service from Azure Pipelines automatic deployment
